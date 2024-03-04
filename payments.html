@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Course - Elements</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Course Project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="styles/elements_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/elements_responsive.css">
+
+<style>
+	/* Inline CSS to style the page */
+	body {
+		font-family: Arial, sans-serif;
+		background-color: #f0f0f0;
+	}
+	h1 {
+		text-align: center;
+		color: #333333;
+	}
+	form {
+		width: 50%;
+		margin: 0 auto;
+		border: 1px solid #cccccc;
+		padding: 20px;
+		background-color: #ffffff;
+	}
+	.container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin-bottom: 10px;
+	}
+	.box {
+		width: 48%;
+		height: 30px;
+		border: 1px solid #999999;
+		padding: 5px;
+	}
+	input[type=submit] {
+		width: 100%;
+		height: 40px;
+		background-color: #000000;
+		color: #ffffff;
+		font-weight: bold;
+		cursor: pointer;
+	}
+	p {
+		text-align: center;
+		margin-top: 20px;
+	}
+	button{
+		background-color: #000000;
+		color: #ffffff;
+		font-weight: bold;
+		width: 100%;
+		height: 40px;
+		cursor: pointer;
+	}
+	body {
+		font-family: Arial, sans-serif;
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	.container {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 20px;
+	}
+
+	.card {
+		border: 1px solid #ccc;
+		border-radius: 8px;
+	}
+
+	.img-box img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.number label {
+		font-size: 18px;
+	}
+
+	.d-flex {
+		display: flex;
+	}
+
+	.align-items-center {
+		align-items: center;
+	}
+
+	.justify-content-between {
+		justify-content: space-between;
+	}
+
+	.col-12 {
+		width: 100%;
+	}
+
+	.mt-4 {
+		margin-top: 4px;
+	}
+
+	.mb-0 {
+		margin-bottom: 0;
+	}
+
+	.fw-bold {
+		font-weight: bold;
+	}
+
+	.h4 {
+		font-size: 1.5em;
+	}
+
+	.btn-primary {
+		background-color: #007bff;
+		color: #fff;
+		border: none;
+		padding: 10px;
+		border-radius: 4px;
+		cursor: pointer;
+	}
+
+	.btn-primary:hover {
+		background-color: #0056b3;
+	}
+
+	.collapse {
+		display: none;
+	}
+
+	.show {
+		display: block;
+	}
+
+	.border {
+		border: 1px solid #ccc;
+	}
+
+	.p-3 {
+		padding: 20px;
+	}
+
+	.p-0 {
+		padding: 0;
+	}
+
+	.pt-0 {
+		padding-top: 0;
+	}
+
+	.form {
+		margin-top: 20px;
+	}
+
+	.form__div {
+		position: relative;
+		margin-bottom: 20px;
+	}
+
+	.form-control {
+		width: 100%;
+		padding: 10px;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+	}
+
+	.form__label {
+		position: absolute;
+		top: 50%;
+		left: 10px;
+		transform: translateY(-50%);
+		background-color: #fff;
+		padding: 0 5px;
+		font-size: 14px;
+		color: #777;
+	}
+
+	.payment {
+		margin-top: 20px;
+	}
+</style>
+</head>
+<body>
+
+<div class="super_container">
+
+	<header class="header d-flex flex-row">
+		<div class="header_content d-flex flex-row align-items-center">
+
+			<!-- Main Navigation -->
+			<nav class="main_nav_container">
+				<div class="main_nav">
+					<ul class="main_nav_list">
+						<li class="main_nav_item"><a href="index.html">home</a></li>
+						<li class="main_nav_item"><a href="registration.html">Register</a></li>
+						<li class="main_nav_item"><a href="department.html">department</a></li>
+						<li class="main_nav_item"><a href="payments.html">payments</a></li>
+						<li class="main_nav_item"><a href="timetable.html">timetable</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+
+	</header>
+	
+	<div class="home">
+		<div class="home_background_container prlx_parent">
+			<div class="home_background prlx" style="background-image:url(dept.jpg)"></div>
+		</div>
+		
+	</div>
+	
+
+
+	<!-- Elements -->
+
+	<div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-lg-0 mb-3">
+                <div class="card p-3">
+                    <div class="img-box">
+                        <img src="https://www.freepnglogos.com/uploads/visa-logo-download-png-21.png" alt="">
+                    </div>
+                    <div class="number">
+                        <label class="fw-bold" for="">**** **** **** 1060</label>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <small><span class="fw-bold">Expiry date:</span><span>10/16</span></small>
+                        <small><span class="fw-bold">Name:</span><span>Kumar</span></small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-lg-0 mb-3">
+                <div class="card p-3">
+                    <div class="img-box">
+                        <img src="https://www.freepnglogos.com/uploads/mastercard-png/file-mastercard-logo-svg-wikimedia-commons-4.png"
+                            alt="">
+                    </div>
+                    <div class="number">
+                        <label class="fw-bold">**** **** **** 1060</label>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <small><span class="fw-bold">Expiry date:</span><span>10/16</span></small>
+                        <small><span class="fw-bold">Name:</span><span>Kumar</span></small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-lg-0 mb-3">
+                <div class="card p-3">
+                    <div class="img-box">
+                        <img src="https://www.freepnglogos.com/uploads/discover-png-logo/credit-cards-discover-png-logo-4.png"
+                            alt="">
+                    </div>
+                    <div class="number">
+                        <label class="fw-bold">**** **** **** 1060</label>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <small><span class="fw-bold">Expiry date:</span><span>10/16</span></small>
+                        <small><span class="fw-bold">Name:</span><span>Kumar</span></small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-4">
+                <div class="card p-3">
+                    <p class="mb-0 fw-bold h4">Payment Methods</p>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="card p-3">
+                    <div class="card-body border p-0">
+                        <p>
+                            <a class="btn btn-primary w-100 h-100 d-flex align-items-center justify-content-between"
+                                data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="true"
+                                aria-controls="collapseExample">
+                                <span class="fw-bold">PayPal</span>
+                                <span class="fab fa-cc-paypal">
+                                </span>
+                            </a>
+                        </p>
+                        <div class="collapse p-3 pt-0" id="collapseExample">
+                            <div class="row">
+                                <div class="col-8">
+                                    <p class="h4 mb-0">Summary</p>
+                                    <p class="mb-0"><span class="fw-bold">Product:</span><span class="c-green">: Name of
+                                            product</span></p>
+                                    <p class="mb-0"><span class="fw-bold">Price:</span><span
+                                            class="c-green">:$452.90</span></p>
+                                    <p class="mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque
+                                        nihil neque
+                                        quisquam aut
+                                        repellendus, dicta vero? Animi dicta cupiditate, facilis provident quibusdam ab
+                                        quis,
+                                        iste harum ipsum hic, nemo qui!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body border p-0">
+                        <p>
+                            <a class="btn btn-primary p-2 w-100 h-100 d-flex align-items-center justify-content-between"
+                                data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="true"
+                                aria-controls="collapseExample">
+                                <span class="fw-bold">Credit Card</span>
+                                <span class="">
+                                    <span class="fab fa-cc-amex"></span>
+                                    <span class="fab fa-cc-mastercard"></span>
+                                    <span class="fab fa-cc-discover"></span>
+                                </span>
+                            </a>
+                        </p>
+                        <div class="collapse show p-3 pt-0" id="collapseExample">
+                            <div class="row">
+                                <div class="container">
+                                    <label for="name">Name:</label>
+                                    <input type="text" id="name" name="name" class="box" required>
+                                </div>
+                                <div class="container">
+                                    <label for="number">Index Number:</label>
+                                    <input type="number" id="email" name="number" class="box" maxlength="14" required>
+                                </div>
+                                <div class="container">
+                                    <label for="email">Email:</label>
+                                    <input type="email" id="email" name="email" class="box" required>
+                                </div>
+								<div class="container">
+                                    <label for="email">Amount:</label>
+                                    <input type="number" id="number" name="number" class="box" required>
+                                </div>
+                                <div class="col-lg-7">
+                                    <form action="" class="form">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="form__div">
+                                                    <input type="text" class="form-control" placeholder=" ">
+                                                    <label for="" class="form__label">Card Number</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6">
+                                                <div class="form__div">
+                                                    <input type="text" class="form-control" placeholder=" ">
+                                                    <label for="" class="form__label">MM / yy</label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6">
+                                                <div class="form__div">
+                                                    <input type="password" class="form-control" placeholder=" ">
+                                                    <label for="" class="form__label">cvv code</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form__div">
+                                                    <input type="text" class="form-control" placeholder=" ">
+                                                    <label for="" class="form__label">name on the card</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="btn btn-primary w-100">Sumbit</div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="btn btn-primary payment">
+                    Make Payment
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+			
+		</div>
+	</footer>
+	
+</div>
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/progressbar/progressbar.min.js"></script>
+<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="js/elements_custom.js"></script>
+
+</body>
+</html>

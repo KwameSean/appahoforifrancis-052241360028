@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Course - Timetables</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Course Project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="styles/contact_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
+<style>
+	body{
+		background-image: url("timetable.jpg");
+		font-family: Arial, sans-serif;
+		text-align: center;
+	  }
+  
+	  h1 {
+		color: #333;
+	  }
+  
+	  table {
+		width: 100%;
+		border-collapse: collapse;
+		margin-top: 20px;
+	  }
+  
+	  th, td {
+		border: 1px solid #ddd;
+		padding: 8px;
+		text-align: center;
+	  }
+  
+	  th {
+		background-color: #f2f2f2;
+	  }
+  
+	  .subject {
+		font-weight: bold;
+	  }
+  
+	  .room {
+		color: #666;
+	  }
+  
+	  .break, .lunch {
+		background-color: #e6e6e6;
+		font-weight: bold;
+		color: #ff0000; /* red color for break */
+	  }
+  
+	  .lunch {
+		color: #009900; /* green color for lunch */
+	  }
+	
+</style>
+</head>
+<body>
+
+<div class="super_container">
+
+	<!-- Header -->
+
+	<header class="header d-flex flex-row">
+		<div class="header_content d-flex flex-row align-items-center">
+
+			<!-- Main Navigation -->
+			<nav class="main_nav_container">
+				<div class="main_nav">
+					<ul class="main_nav_list">
+						<li class="main_nav_item"><a href="index.html">home</a></li>
+						<li class="main_nav_item"><a href="registration.html">Register</a></li>
+						<li class="main_nav_item"><a href="department.html">department</a></li>
+						<li class="main_nav_item"><a href="payments.html">payments</a></li>
+						<li class="main_nav_item"><a href="#">timetable</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+
+	</header>
+	<div class="home">
+		<div class="home_background_container prlx_parent">
+			<div class="home_background prlx" style="background-image:url(dept.jpg)"></div>
+		</div>
+		
+	</div>
+	
+	<!-- Menu -->
+	<div class="menu_container menu_mm">
+
+		<!-- Menu Close Button -->
+		<div class="menu_close_container">
+			<div class="menu_close"></div>
+		</div>
+
+		<!-- Menu Items -->
+		<div class="menu_inner menu_mm">
+			<div class="menu menu_mm">
+				<ul class="menu_list menu_mm">
+					<li class="menu_item menu_mm"><a href="index.html">Home</a></li>
+					<li class="menu_item menu_mm"><a href="#">About us</a></li>
+					<li class="menu_item menu_mm"><a href="courses.html">Courses</a></li>
+					<li class="menu_item menu_mm"><a href="elements.html">Elements</a></li>
+					<li class="menu_item menu_mm"><a href="news.html">News</a></li>
+					<li class="menu_item menu_mm"><a href="#">Contact</a></li>
+				</ul>
+
+				<div class="menu_copyright menu_mm">Colorlib All rights reserved</div>
+			</div>
+
+		</div>
+
+	</div>
+
+	<div>
+		<div class="container">
+			<div class="container">
+
+			</div>
+		</div>
+	</div>
+	<h1>Timetable</h1>
+
+	<table class="myTimetable">
+	  <thead>
+		<tr>
+		  <th></th>
+		  <th>8:00 - 9:00</th>
+		  <th>9:00 - 10:00</th>
+		  <th>10:00 - 11:00</th>
+		  <th>11:00 - 12:00</th>
+		  <th>12:00 - 13:00</th>
+		  <th>13:00 - 14:00</th>
+		  <th>14:00 - 15:00</th>
+		  <th>15:00 - 16:00</th>
+		  <th>16:00 - 17:00</th>
+		</tr>
+	  </thead>
+	  <tbody>
+		<!-- Monday -->
+		<tr>
+		  <th>Monday</th>
+		  <td>
+			<div class="subject">Maths</div>
+			<div class="room">A120</div>
+		  </td>
+		  <td>
+			<div class="subject">Art</div>
+			<div class="room">C1</div>
+		  </td>
+		  <td>
+			<div class="subject">English</div>
+			<div class="room">B21</div>
+		  </td>
+		  <td>
+			<div class="subject">Maths</div>
+			<div class="room">A120</div>
+		  </td>
+		  <td>
+			<div class="subject">Geography</div>
+			<div class="room">B101</div>
+		  </td>
+		  <td>
+			  <div class="subject">Geography</div>
+			  <div class="room">B101</div>
+			</td>
+			<td>
+			  <div class="subject">Geography</div>
+			  <div class="room">B101</div>
+			</td>
+			<td>
+			  <div class="subject">Geography</div>
+			  <div class="room">B101</div>
+			</td>
+			<td>
+			  <div class="subject">Geography</div>
+			  <div class="room">B101</div>
+			</td>
+		</tr>
+		<!-- Tuesday -->
+		<tr>
+		  <th>Tuesday</th>
+		  <td>
+			  <div class="subject">Maths</div>
+			  <div class="room">A120</div>
+			</td>
+			<td>
+			  <div class="subject">Art</div>
+			  <div class="room">C1</div>
+			</td>
+			<td>
+			  <div class="subject">English</div>
+			  <div class="room">B21</div>
+			</td>
+			<td>
+			  <div class="subject">Maths</div>
+			  <div class="room">A120</div>
+			</td>
+			<td>
+			  <div class="subject">Geography</div>
+			  <div class="room">B101</div>
+			</td>
+			<td>
+				<div class="subject">Geography</div>
+				<div class="room">B101</div>
+			  </td>
+			  <td>
+				<div class="subject">Geography</div>
+				<div class="room">B101</div>
+			  </td>
+			  <td>
+				<div class="subject">Geography</div>
+				<div class="room">B101</div>
+			  </td>
+			  <td>
+				<div class="subject">Geography</div>
+				<div class="room">B101</div>
+			  </td>
+		</tr>
+		<!-- Wednesday -->
+		<tr>
+		  <th>Wednesday</th>
+		  <td>
+			  <div class="subject">Maths</div>
+			  <div class="room">A120</div>
+			</td>
+			<td>
+			  <div class="subject">Art</div>
+			  <div class="room">C1</div>
+			</td>
+			<td>
+			  <div class="subject">English</div>
+			  <div class="room">B21</div>
+			</td>
+			<td>
+			  <div class="subject">Maths</div>
+			  <div class="room">A120</div>
+			</td>
+			<td>
+			  <div class="subject">Geography</div>
+			  <div class="room">B101</div>
+			</td>
+			<td>
+				<div class="subject">Geography</div>
+				<div class="room">B101</div>
+			  </td>
+			  <td>
+				<div class="subject">Geography</div>
+				<div class="room">B101</div>
+			  </td>
+			  <td>
+				<div class="subject">Geography</div>
+				<div class="room">B101</div>
+			  </td>
+			  <td>
+				<div class="subject">Geography</div>
+				<div class="room">B101</div>
+			  </td>
+		</tr>
+		<!-- Thursday -->
+		<tr>
+		  <th>Thursday</th>
+		  <td>
+			  <div class="subject">Maths</div>
+			  <div class="room">A120</div>
+			</td>
+			<td>
+			  <div class="subject">Art</div>
+			  <div class="room">C1</div>
+			</td>
+			<td>
+			  <div class="subject">English</div>
+			  <div class="room">B21</div>
+			</td>
+			<td>
+			  <div class="subject">Maths</div>
+			  <div class="room">A120</div>
+			</td>
+			<td>
+			  <div class="subject">Geography</div>
+			  <div class="room">B101</div>
+			</td>
+			<td>
+				<div class="subject">Geography</div>
+				<div class="room">B101</div>
+			  </td>
+			  <td>
+				<div class="subject">Geography</div>
+				<div class="room">B101</div>
+			  </td>
+			  <td>
+				<div class="subject">Geography</div>
+				<div class="room">B101</div>
+			  </td>
+			  <td>
+				<div class="subject">Geography</div>
+				<div class="room">B101</div>
+			  </td>
+		</tr>
+		<!-- Friday -->
+		<tr>
+		  <th>Friday</th>
+		  <td colspan="9">
+		  </td>
+		</tr>
+		<!-- Other days go here -->
+	  </tbody>
+	</table>
+
+    <!-- PDF download links -->
+    <h2 style="background-color:black"><p>Download  Timetable PDF files:</p></h2>
+    <ul>
+        <li><a class="download-link" href="D:\course-master\course-master\Computer Science 2023_24_Sem 1 - Time Table FINAL.pdf" download>Computer Science (PDF)</a></li>
+
+        <!-- ... other days ... -->
+    </ul>
+
+	
+
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="js/contact_custom.js"></script>
+
+</body>
+</html>
